@@ -2,10 +2,10 @@ cmake_minimum_required(VERSION 2.8.3)
 project(openrave_catkin)
 
 find_package(catkin REQUIRED)
-find_package(openrave REQUIRED)
+find_package(OpenRAVE REQUIRED)
 
 catkin_package(
-    DEPENDS openrave
+    DEPENDS OpenRAVE
     CFG_EXTRAS "${PROJECT_NAME}-extras.cmake"
 )
 
